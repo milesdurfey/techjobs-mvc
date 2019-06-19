@@ -43,23 +43,4 @@ public class SearchController {
     }
 }
 
-//    @RequestMapping(value = "results")
-//    public String search2(@RequestParam String searchType, @RequestParam String searchTerm, Model model){
-//        Iterable<HashMap<String, String>> jobs;
-//        if (searchType.equals("all")) {
-//            jobs = JobData.findByValue(searchTerm);
-//            model.addAttribute("selectedColumn", searchType);
-//        }
-//        else {
-//            jobs = JobData.findByColumnAndValue(searchType, searchTerm);
-//            model.addAttribute("selectedColumn", searchType);
-//        }
-//
-//        model.addAttribute("columns", ListController.columnChoices);
-//        model.addAttribute("jobs", jobs);
-//
-//
-//        return "search";
-//  }
-//}
 
